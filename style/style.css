@@ -932,6 +932,8 @@ margin-bottom: 120px; }
 @media (max-width: 1100px){
   body{
     overflow: visible;
+    overflow: scroll;
+-webkit-overflow-scrolling: touch;
   }
   .content-container{
     overflow: hidden;
