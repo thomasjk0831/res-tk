@@ -36,7 +36,7 @@ body{
 
 .sidebar-container{
     flex: 1;
-    height: 100vh;
+    /* height: 100vh; */
     color: white;
     background-color: #3F4E85;
     /* background-color: #49FCD4; */
