@@ -934,10 +934,12 @@ margin-bottom: 120px; }
     overflow: visible;
   }
   .content-container{
-    overflow: hidden;
+    /* overflow: hidden; */
+    -webkit-overflow-scrolling: touch;
+
   }
   .main-container{
-    /* flex-direction: column; */
+    flex-direction: column;
   }
   .bio-container{
     display:none;
