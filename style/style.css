@@ -942,7 +942,7 @@ margin-bottom: 120px; }
     flex-direction: column;
   }
   .bio-container{
-    display:none;
+    /* display:none; */
   }
 
  
