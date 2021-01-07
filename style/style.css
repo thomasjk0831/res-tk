@@ -22,7 +22,7 @@ body{
     /* font-family: 'Spartan', sans-serif; */
   /* font-family: "Lato", sans-serif; */
   font-size: 1.6rem;
-  /* overflow: hidden; */
+  overflow: hidden;
   
 }
 
@@ -116,7 +116,7 @@ body{
 .content-container{
     flex: 3;
     height: 100vh;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     background-color: white;
     color: black;
 }
@@ -730,7 +730,7 @@ border-radius: 10px;
         /* box-shadow: 0px 4px 7px rgba(0,0,0,.5); */
         cursor: pointer;
         transition: all .5s cubic-bezier(.8,.5,.2,1.4);
-         /* overflow: hidden; */
+         overflow: hidden;
         position: relative; 
         border: 5px solid #49FCD4;
         background-color: black;
