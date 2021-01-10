@@ -715,8 +715,12 @@ border-radius: 10px;
       
     .project-container{
        display: flex;
+       justify-content: center;
        justify-content: space-evenly;
       margin: 30px 0;
+      /* border: 1px solid red; */
+      width: 90%;
+      /* text-align: center; */
     }
     .section{
         /* flex: 1;
@@ -733,7 +737,7 @@ border-radius: 10px;
          overflow: hidden;
         position: relative; 
         border: 5px solid #49FCD4;
-        background-color: black;
+        /* background-color: black; */
     }
 
     
@@ -811,10 +815,12 @@ border-radius: 10px;
     }
 
  .test-description{
-   width: 41%;
+   width: 450px;
    display: flex;
    flex-direction: column;
    justify-content: center;
+   /* border: 1px solid black; */
+   /* text-align: center; */
  }
 
  .test-description h3{
@@ -890,7 +896,7 @@ margin-bottom: 120px; }
   background-position: center;
   visibility: visible;
   margin: 0 5%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 #contact{
   height:auto;
@@ -902,12 +908,12 @@ margin-bottom: 120px; }
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .contact-icons-form{
   visibility: visible;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
 }
 
@@ -1019,6 +1025,7 @@ margin-bottom: 120px; }
 
    .about-skills-container{
      padding-top: 110px;
+     border: 1px solid grey;
    }
 
    .banner-message{
