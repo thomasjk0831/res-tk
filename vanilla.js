@@ -1,15 +1,3 @@
-// document.querySelector('#projects').scrollIntoView({
-//     behavior: 'smooth'
-// });
-
-// const imgContent =  document.querySelector('.img-content img')
-// imgContent.addEventListener('click', (event)=> {
-//     imgContent.style.border= "10px solid orange"
-// })
-
-// window.addEventListener('scroll', () => {
-//     console.log("ok")
-// });
 
 
 const projectLink = document.querySelector('.projectLink')

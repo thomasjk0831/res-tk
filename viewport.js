@@ -4,10 +4,7 @@ var elementHeight = project.clientHeight;
 const contentContainer = document.querySelector('.content-container')
 const projectsHeader = document.querySelector('.projects-header')
 var contContainer = document.querySelector('.contact-main-container')
-
 var contactForm = document.querySelector('.contactForm')
-
-
 contentContainer.addEventListener('scroll', animate);
 
 // check if element is in view
@@ -27,7 +24,6 @@ function inView(ele) {
     if (scrollPosition >= elementPosition) {
         return true;
     }
-
     return false;
 }
 
@@ -45,7 +41,6 @@ function isVisible(ele) {
 
 // isvisible is when any element is visible
 function animate() {
-
     // is element in view?
     if (isVisible(project) && !isVisible(intro)) {
         // element is in view, add class to element

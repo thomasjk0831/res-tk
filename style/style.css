@@ -97,12 +97,11 @@ body{
 }
 
  #intro{
-            /* background-image: url("../assets/test.jpg"); */
-            background-image: url("https://live.staticflickr.com/65535/50965334638_0b8204c9f3_b.jpg");
+        background-image: url("https://live.staticflickr.com/65535/50965334638_0b8204c9f3_b.jpg");
         background-position:center;
         background-size:cover;
         background-attachment: fixed;
-   background-repeat: no-repeat;
+        background-repeat: no-repeat;
         height: 100vh;
         display: flex;
         justify-content: center;

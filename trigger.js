@@ -1,41 +1,4 @@
-// var eleBox = document.getElementById('box');
-// var eleHeight = eleBox.clientHeight;
 
-
-
-// // listen for scroll event and call animate function
-// contentContainer.addEventListener('scroll', animateEle);
-
-// // check if element is in view
-// function inView2() {
-//     // get window height
-//     var windowHeight = window.innerHeight;
-//     // get number of pixels that the document is scrolled
-//     var scrollY = window.scrollY || window.pageYOffset;
-
-//     // get current scroll position (distance from the top of the page to the bottom of the current viewport)
-//     var scrollPosition = scrollY + windowHeight;
-//     // get element position (distance from the top of the page to the bottom of the element)
-//     var elementPosition = eleBox.getBoundingClientRect().top + scrollY + eleHeight;
-
-//     // is scroll position greater than element position? (is element in view?)
-//     if (scrollPosition > elementPosition) {
-//         return true;
-//     }
-
-//     return false;
-// }
-
-// // animate element when it is in view
-// function animateEle() {
-//     console.log("scrolling")
-//     // is element in view?
-//     if (inView2()) {
-//         // element is in view, add class to element
-//         console.log("trigger")
-//         eleBox.classList.add('animate');
-//     }
-// }
 
 var projHeader = document.querySelector('.projects-header');
 var projHeaderHeight = projHeader.clientHeight;
@@ -75,9 +38,6 @@ function inView2(eleBox, eleHeight) {
 // animate element when it is in view
 function animateEle() {
 
-
-
-
     if (inView2(projHeader, projHeaderHeight) && isVisible(projHeader)) {
         // element is in view, add class to element
         projHeader.classList.add('moveRight');
@@ -93,11 +53,6 @@ function animateEle() {
         })
     } else {
         aboutHeader.classList.remove('moveLeft')
-
     }
-
-    // if (isVisible(contact))
-    //     contContainer.classList.add('clipContact')
-
 
 }
