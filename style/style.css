@@ -97,7 +97,7 @@ body{
 }
 
  #intro{
-        background-image: url("https://live.staticflickr.com/65535/50965334638_0b8204c9f3_b.jpg");
+        background-image: url("../assets/Vicent-Van-Gogh.jpg");
         background-position:center;
         background-size:cover;
         background-attachment: fixed;
